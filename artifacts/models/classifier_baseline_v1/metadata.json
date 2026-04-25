@@ -1,0 +1,29 @@
+{
+  "model_name": "classifier_baseline_v1",
+  "train_count": 36,
+  "feature_extractor": "16x16 RGB thumbnail + color stats + histogram",
+  "classifier_type": "top-k nearest neighbor",
+  "k": 3,
+  "metrics": {
+    "total": 60,
+    "l1_accuracy": 0.55,
+    "l2_accuracy": 0.516667,
+    "per_split": {
+      "test": {
+        "count": 12,
+        "l1_accuracy": 0.333333,
+        "l2_accuracy": 0.333333
+      },
+      "train": {
+        "count": 36,
+        "l1_accuracy": 0.666667,
+        "l2_accuracy": 0.638889
+      },
+      "val": {
+        "count": 12,
+        "l1_accuracy": 0.416667,
+        "l2_accuracy": 0.333333
+      }
+    }
+  }
+}

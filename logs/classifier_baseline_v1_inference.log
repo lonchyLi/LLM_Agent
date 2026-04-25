@@ -1,0 +1,28 @@
+[2026-04-24T22:00:47] classifier_baseline_v1 batch inference run
+dataset_root=/Users/lilongqi/PycharmProjects/2026/0322/data_set_v2
+prediction_count=60
+split_counts={'test': 12, 'train': 36, 'val': 12}
+overall_l1_accuracy=0.55
+overall_l2_accuracy=0.516667
+
+per_split_metrics:
+- test: count=12, l1_accuracy=0.333333, l2_accuracy=0.333333
+- train: count=36, l1_accuracy=0.666667, l2_accuracy=0.638889
+- val: count=12, l1_accuracy=0.416667, l2_accuracy=0.333333
+
+sample_errors:
+- sample_id=100000, split=train, true=(manipulated, copy_move), pred=(authentic, none), confidence_l1=0.662031, confidence_l2=0.662031
+- sample_id=100003, split=train, true=(manipulated, copy_move), pred=(authentic, none), confidence_l1=0.65871, confidence_l2=0.65871
+- sample_id=100005, split=train, true=(manipulated, copy_move), pred=(authentic, none), confidence_l1=0.65436, confidence_l2=0.65436
+- sample_id=100006, split=val, true=(manipulated, copy_move), pred=(authentic, none), confidence_l1=0.666078, confidence_l2=0.666078
+- sample_id=100008, split=test, true=(manipulated, copy_move), pred=(authentic, none), confidence_l1=0.666067, confidence_l2=0.666067
+- sample_id=100009, split=test, true=(manipulated, copy_move), pred=(authentic, none), confidence_l1=0.666115, confidence_l2=0.666115
+- sample_id=200001, split=train, true=(manipulated, splice), pred=(authentic, none), confidence_l1=0.655364, confidence_l2=0.655364
+- sample_id=200004, split=train, true=(manipulated, splice), pred=(manipulated, inpainting_removal), confidence_l1=1.0, confidence_l2=0.651802
+- sample_id=200006, split=val, true=(manipulated, splice), pred=(authentic, none), confidence_l1=1.0, confidence_l2=1.0
+- sample_id=200007, split=val, true=(manipulated, splice), pred=(authentic, none), confidence_l1=1.0, confidence_l2=1.0
+- sample_id=200008, split=test, true=(manipulated, splice), pred=(authentic, none), confidence_l1=1.0, confidence_l2=1.0
+- sample_id=200009, split=test, true=(manipulated, splice), pred=(authentic, none), confidence_l1=1.0, confidence_l2=1.0
+- sample_id=300004, split=train, true=(manipulated, inpainting_removal), pred=(authentic, none), confidence_l1=0.659871, confidence_l2=0.659871
+- sample_id=300006, split=val, true=(manipulated, inpainting_removal), pred=(authentic, none), confidence_l1=0.66712, confidence_l2=0.66712
+- sample_id=400000, split=train, true=(manipulated, inpainting_replacement), pred=(authentic, none), confidence_l1=0.649541, confidence_l2=0.649541

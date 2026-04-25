@@ -1,0 +1,45 @@
+{
+  "sample_id": "0524_68414_replacement",
+  "round_id": 1,
+  "modality": "remote_sensing_rgb",
+  "coarse_label": "manipulated",
+  "coarse_type_candidates": [
+    {
+      "label": "inpainting_replacement",
+      "score": 0.68
+    },
+    {
+      "label": "splicing",
+      "score": 0.17
+    },
+    {
+      "label": "fully_generated",
+      "score": 0.06
+    }
+  ],
+  "uncertainty": 0.23,
+  "task_description": "判断该遥感图像是否存在目标级语义替换，并定位可疑区域",
+  "tool_candidates": [
+    {
+      "tool": "ForgeryGPT",
+      "priority": 1,
+      "reason": "语义替换嫌疑较高，需要视觉语言证据"
+    },
+    {
+      "tool": "FFTArtifactDetector",
+      "priority": 2,
+      "reason": "需要验证局部频域统计是否异常"
+    },
+    {
+      "tool": "SAM",
+      "priority": 2,
+      "reason": "需要生成候选掩码区域"
+    }
+  ],
+  "need_next_round": true,
+  "reasoning_summary": [
+    "目标区域与上下文场景匹配度较低",
+    "篡改模式更像语义替换而非单纯目标删除",
+    "需要频域证据和掩码证据进行交叉验证"
+  ]
+}

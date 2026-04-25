@@ -1,0 +1,16 @@
+{
+  "sample_id": "100001",
+  "round_id": 1,
+  "tool_name": "ForgeryGPT",
+  "status": "success",
+  "score": 0.8,
+  "label_support": {
+    "none": 0.0,
+    "copy_move": 0.8,
+    "splice": 0.12,
+    "inpainting_removal": 0.0,
+    "inpainting_replacement": 0.06,
+    "aigc_global": 0.0
+  },
+  "summary": "ForgeryGPT baseline adapter prioritizes `copy_move` for `classification_localization`."
+}

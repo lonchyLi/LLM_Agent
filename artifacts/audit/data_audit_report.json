@@ -1,0 +1,892 @@
+{
+  "dataset_name": "RS-Tampering-Unified-Demo",
+  "dataset_root": "data_set_v2",
+  "sample_count": 60,
+  "question_count": 1313,
+  "per_l1": {
+    "manipulated": 40,
+    "fully_generated": 10,
+    "authentic": 10
+  },
+  "per_type": {
+    "copy_move": 10,
+    "splice": 10,
+    "inpainting_removal": 10,
+    "inpainting_replacement": 10,
+    "aigc_global": 10,
+    "none": 10
+  },
+  "per_mode": {
+    "classification_localization": 40,
+    "classification": 20
+  },
+  "per_question_type": {
+    "1": 50,
+    "10": 27,
+    "11": 34,
+    "12": 27,
+    "13": 34,
+    "14": 37,
+    "15": 40,
+    "16": 30,
+    "17": 30,
+    "18": 10,
+    "19": 10,
+    "2": 37,
+    "20": 10,
+    "21": 10,
+    "22": 10,
+    "23": 70,
+    "24": 70,
+    "3": 174,
+    "4": 37,
+    "5": 214,
+    "6": 27,
+    "7": 194,
+    "8": 37,
+    "9": 94
+  },
+  "issues": [],
+  "sample_audits": [
+    {
+      "sample_id": "100000",
+      "tamper_status_l1": "manipulated",
+      "tamper_type_l2": "copy_move",
+      "task_mode": "classification_localization",
+      "question_count": 20,
+      "missing_files": [],
+      "image_details": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGB"
+      },
+      "summary": "sample_id=100000; dataset=CM_dataset; task_mode=classification_localization; l1=manipulated; l2=copy_move; object_class=Car; tampered_area=One to Five Percent"
+    },
+    {
+      "sample_id": "100001",
+      "tamper_status_l1": "manipulated",
+      "tamper_type_l2": "copy_move",
+      "task_mode": "classification_localization",
+      "question_count": 20,
+      "missing_files": [],
+      "image_details": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGB"
+      },
+      "summary": "sample_id=100001; dataset=CM_dataset; task_mode=classification_localization; l1=manipulated; l2=copy_move; object_class=Car; tampered_area=One to Five Percent"
+    },
+    {
+      "sample_id": "100002",
+      "tamper_status_l1": "manipulated",
+      "tamper_type_l2": "copy_move",
+      "task_mode": "classification_localization",
+      "question_count": 20,
+      "missing_files": [],
+      "image_details": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGB"
+      },
+      "summary": "sample_id=100002; dataset=CM_dataset; task_mode=classification_localization; l1=manipulated; l2=copy_move; object_class=Car; tampered_area=One to Five Percent"
+    },
+    {
+      "sample_id": "100003",
+      "tamper_status_l1": "manipulated",
+      "tamper_type_l2": "copy_move",
+      "task_mode": "classification_localization",
+      "question_count": 1,
+      "missing_files": [],
+      "image_details": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGB"
+      },
+      "summary": "sample_id=100003; dataset=CM_dataset; task_mode=classification_localization; l1=manipulated; l2=copy_move"
+    },
+    {
+      "sample_id": "100004",
+      "tamper_status_l1": "manipulated",
+      "tamper_type_l2": "copy_move",
+      "task_mode": "classification_localization",
+      "question_count": 1,
+      "missing_files": [],
+      "image_details": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGB"
+      },
+      "summary": "sample_id=100004; dataset=CM_dataset; task_mode=classification_localization; l1=manipulated; l2=copy_move"
+    },
+    {
+      "sample_id": "100005",
+      "tamper_status_l1": "manipulated",
+      "tamper_type_l2": "copy_move",
+      "task_mode": "classification_localization",
+      "question_count": 20,
+      "missing_files": [],
+      "image_details": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGB"
+      },
+      "summary": "sample_id=100005; dataset=CM_dataset; task_mode=classification_localization; l1=manipulated; l2=copy_move; object_class=Car; tampered_area=Less than One Percent"
+    },
+    {
+      "sample_id": "100006",
+      "tamper_status_l1": "manipulated",
+      "tamper_type_l2": "copy_move",
+      "task_mode": "classification_localization",
+      "question_count": 20,
+      "missing_files": [],
+      "image_details": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGB"
+      },
+      "summary": "sample_id=100006; dataset=CM_dataset; task_mode=classification_localization; l1=manipulated; l2=copy_move; object_class=Car; tampered_area=Less than One Percent"
+    },
+    {
+      "sample_id": "100007",
+      "tamper_status_l1": "manipulated",
+      "tamper_type_l2": "copy_move",
+      "task_mode": "classification_localization",
+      "question_count": 20,
+      "missing_files": [],
+      "image_details": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGB"
+      },
+      "summary": "sample_id=100007; dataset=CM_dataset; task_mode=classification_localization; l1=manipulated; l2=copy_move; object_class=Car; tampered_area=Less than One Percent"
+    },
+    {
+      "sample_id": "100008",
+      "tamper_status_l1": "manipulated",
+      "tamper_type_l2": "copy_move",
+      "task_mode": "classification_localization",
+      "question_count": 1,
+      "missing_files": [],
+      "image_details": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGB"
+      },
+      "summary": "sample_id=100008; dataset=CM_dataset; task_mode=classification_localization; l1=manipulated; l2=copy_move"
+    },
+    {
+      "sample_id": "100009",
+      "tamper_status_l1": "manipulated",
+      "tamper_type_l2": "copy_move",
+      "task_mode": "classification_localization",
+      "question_count": 20,
+      "missing_files": [],
+      "image_details": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGB"
+      },
+      "summary": "sample_id=100009; dataset=CM_dataset; task_mode=classification_localization; l1=manipulated; l2=copy_move; object_class=Car; tampered_area=Less than One Percent"
+    },
+    {
+      "sample_id": "200000",
+      "tamper_status_l1": "manipulated",
+      "tamper_type_l2": "splice",
+      "task_mode": "classification_localization",
+      "question_count": 16,
+      "missing_files": [],
+      "image_details": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGB"
+      },
+      "summary": "sample_id=200000; dataset=splice_dataset; task_mode=classification_localization; l1=manipulated; l2=splice; object_class=Farmland; tampered_area=Less than One Percent"
+    },
+    {
+      "sample_id": "200001",
+      "tamper_status_l1": "manipulated",
+      "tamper_type_l2": "splice",
+      "task_mode": "classification_localization",
+      "question_count": 16,
+      "missing_files": [],
+      "image_details": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGB"
+      },
+      "summary": "sample_id=200001; dataset=splice_dataset; task_mode=classification_localization; l1=manipulated; l2=splice; object_class=Farmland; tampered_area=One to Five Percent"
+    },
+    {
+      "sample_id": "200002",
+      "tamper_status_l1": "manipulated",
+      "tamper_type_l2": "splice",
+      "task_mode": "classification_localization",
+      "question_count": 16,
+      "missing_files": [],
+      "image_details": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGB"
+      },
+      "summary": "sample_id=200002; dataset=splice_dataset; task_mode=classification_localization; l1=manipulated; l2=splice; object_class=Farmland; tampered_area=One to Five Percent"
+    },
+    {
+      "sample_id": "200003",
+      "tamper_status_l1": "manipulated",
+      "tamper_type_l2": "splice",
+      "task_mode": "classification_localization",
+      "question_count": 16,
+      "missing_files": [],
+      "image_details": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGB"
+      },
+      "summary": "sample_id=200003; dataset=splice_dataset; task_mode=classification_localization; l1=manipulated; l2=splice; object_class=Farmland; tampered_area=One to Five Percent"
+    },
+    {
+      "sample_id": "200004",
+      "tamper_status_l1": "manipulated",
+      "tamper_type_l2": "splice",
+      "task_mode": "classification_localization",
+      "question_count": 16,
+      "missing_files": [],
+      "image_details": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGB"
+      },
+      "summary": "sample_id=200004; dataset=splice_dataset; task_mode=classification_localization; l1=manipulated; l2=splice; object_class=Ship; tampered_area=One to Five Percent"
+    },
+    {
+      "sample_id": "200005",
+      "tamper_status_l1": "manipulated",
+      "tamper_type_l2": "splice",
+      "task_mode": "classification_localization",
+      "question_count": 16,
+      "missing_files": [],
+      "image_details": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGB"
+      },
+      "summary": "sample_id=200005; dataset=splice_dataset; task_mode=classification_localization; l1=manipulated; l2=splice; object_class=Farmland; tampered_area=One to Five Percent"
+    },
+    {
+      "sample_id": "200006",
+      "tamper_status_l1": "manipulated",
+      "tamper_type_l2": "splice",
+      "task_mode": "classification_localization",
+      "question_count": 16,
+      "missing_files": [],
+      "image_details": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGB"
+      },
+      "summary": "sample_id=200006; dataset=splice_dataset; task_mode=classification_localization; l1=manipulated; l2=splice; object_class=Farmland; tampered_area=One to Five Percent"
+    },
+    {
+      "sample_id": "200007",
+      "tamper_status_l1": "manipulated",
+      "tamper_type_l2": "splice",
+      "task_mode": "classification_localization",
+      "question_count": 16,
+      "missing_files": [],
+      "image_details": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGB"
+      },
+      "summary": "sample_id=200007; dataset=splice_dataset; task_mode=classification_localization; l1=manipulated; l2=splice; object_class=Ship; tampered_area=One to Five Percent"
+    },
+    {
+      "sample_id": "200008",
+      "tamper_status_l1": "manipulated",
+      "tamper_type_l2": "splice",
+      "task_mode": "classification_localization",
+      "question_count": 16,
+      "missing_files": [],
+      "image_details": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGB"
+      },
+      "summary": "sample_id=200008; dataset=splice_dataset; task_mode=classification_localization; l1=manipulated; l2=splice; object_class=Airplane; tampered_area=Less than One Percent"
+    },
+    {
+      "sample_id": "200009",
+      "tamper_status_l1": "manipulated",
+      "tamper_type_l2": "splice",
+      "task_mode": "classification_localization",
+      "question_count": 16,
+      "missing_files": [],
+      "image_details": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGB"
+      },
+      "summary": "sample_id=200009; dataset=splice_dataset; task_mode=classification_localization; l1=manipulated; l2=splice; object_class=Farmland; tampered_area=One to Five Percent"
+    },
+    {
+      "sample_id": "300000",
+      "tamper_status_l1": "manipulated",
+      "tamper_type_l2": "inpainting_removal",
+      "task_mode": "classification_localization",
+      "question_count": 47,
+      "missing_files": [],
+      "image_details": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGB"
+      },
+      "summary": "sample_id=300000; dataset=AIGC-inpainting-removal; task_mode=classification_localization; l1=manipulated; l2=inpainting_removal; object_class=Building; tampered_area=One to Five Percent"
+    },
+    {
+      "sample_id": "300001",
+      "tamper_status_l1": "manipulated",
+      "tamper_type_l2": "inpainting_removal",
+      "task_mode": "classification_localization",
+      "question_count": 47,
+      "missing_files": [],
+      "image_details": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGB"
+      },
+      "summary": "sample_id=300001; dataset=AIGC-inpainting-removal; task_mode=classification_localization; l1=manipulated; l2=inpainting_removal; object_class=Building; tampered_area=Less than One Percent"
+    },
+    {
+      "sample_id": "300002",
+      "tamper_status_l1": "manipulated",
+      "tamper_type_l2": "inpainting_removal",
+      "task_mode": "classification_localization",
+      "question_count": 47,
+      "missing_files": [],
+      "image_details": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGB"
+      },
+      "summary": "sample_id=300002; dataset=AIGC-inpainting-removal; task_mode=classification_localization; l1=manipulated; l2=inpainting_removal; object_class=Building; tampered_area=One to Five Percent"
+    },
+    {
+      "sample_id": "300003",
+      "tamper_status_l1": "manipulated",
+      "tamper_type_l2": "inpainting_removal",
+      "task_mode": "classification_localization",
+      "question_count": 47,
+      "missing_files": [],
+      "image_details": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGB"
+      },
+      "summary": "sample_id=300003; dataset=AIGC-inpainting-removal; task_mode=classification_localization; l1=manipulated; l2=inpainting_removal; object_class=Building; tampered_area=One to Five Percent"
+    },
+    {
+      "sample_id": "300004",
+      "tamper_status_l1": "manipulated",
+      "tamper_type_l2": "inpainting_removal",
+      "task_mode": "classification_localization",
+      "question_count": 47,
+      "missing_files": [],
+      "image_details": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGB"
+      },
+      "summary": "sample_id=300004; dataset=AIGC-inpainting-removal; task_mode=classification_localization; l1=manipulated; l2=inpainting_removal; object_class=Building; tampered_area=One to Five Percent"
+    },
+    {
+      "sample_id": "300005",
+      "tamper_status_l1": "manipulated",
+      "tamper_type_l2": "inpainting_removal",
+      "task_mode": "classification_localization",
+      "question_count": 47,
+      "missing_files": [],
+      "image_details": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGB"
+      },
+      "summary": "sample_id=300005; dataset=AIGC-inpainting-removal; task_mode=classification_localization; l1=manipulated; l2=inpainting_removal; object_class=Building; tampered_area=One to Five Percent"
+    },
+    {
+      "sample_id": "300006",
+      "tamper_status_l1": "manipulated",
+      "tamper_type_l2": "inpainting_removal",
+      "task_mode": "classification_localization",
+      "question_count": 47,
+      "missing_files": [],
+      "image_details": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGB"
+      },
+      "summary": "sample_id=300006; dataset=AIGC-inpainting-removal; task_mode=classification_localization; l1=manipulated; l2=inpainting_removal; object_class=Building; tampered_area=One to Five Percent"
+    },
+    {
+      "sample_id": "300007",
+      "tamper_status_l1": "manipulated",
+      "tamper_type_l2": "inpainting_removal",
+      "task_mode": "classification_localization",
+      "question_count": 47,
+      "missing_files": [],
+      "image_details": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGB"
+      },
+      "summary": "sample_id=300007; dataset=AIGC-inpainting-removal; task_mode=classification_localization; l1=manipulated; l2=inpainting_removal; object_class=Building; tampered_area=One to Five Percent"
+    },
+    {
+      "sample_id": "300008",
+      "tamper_status_l1": "manipulated",
+      "tamper_type_l2": "inpainting_removal",
+      "task_mode": "classification_localization",
+      "question_count": 47,
+      "missing_files": [],
+      "image_details": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGB"
+      },
+      "summary": "sample_id=300008; dataset=AIGC-inpainting-removal; task_mode=classification_localization; l1=manipulated; l2=inpainting_removal; object_class=Building; tampered_area=One to Five Percent"
+    },
+    {
+      "sample_id": "300009",
+      "tamper_status_l1": "manipulated",
+      "tamper_type_l2": "inpainting_removal",
+      "task_mode": "classification_localization",
+      "question_count": 47,
+      "missing_files": [],
+      "image_details": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGB"
+      },
+      "summary": "sample_id=300009; dataset=AIGC-inpainting-removal; task_mode=classification_localization; l1=manipulated; l2=inpainting_removal; object_class=Building; tampered_area=One to Five Percent"
+    },
+    {
+      "sample_id": "400000",
+      "tamper_status_l1": "manipulated",
+      "tamper_type_l2": "inpainting_replacement",
+      "task_mode": "classification_localization",
+      "question_count": 47,
+      "missing_files": [],
+      "image_details": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGB"
+      },
+      "summary": "sample_id=400000; dataset=AIGC-inpainting-replacement; task_mode=classification_localization; l1=manipulated; l2=inpainting_replacement; object_class=Building; tampered_area=More than Five Percent"
+    },
+    {
+      "sample_id": "400001",
+      "tamper_status_l1": "manipulated",
+      "tamper_type_l2": "inpainting_replacement",
+      "task_mode": "classification_localization",
+      "question_count": 47,
+      "missing_files": [],
+      "image_details": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGB"
+      },
+      "summary": "sample_id=400001; dataset=AIGC-inpainting-replacement; task_mode=classification_localization; l1=manipulated; l2=inpainting_replacement; object_class=Building; tampered_area=One to Five Percent"
+    },
+    {
+      "sample_id": "400002",
+      "tamper_status_l1": "manipulated",
+      "tamper_type_l2": "inpainting_replacement",
+      "task_mode": "classification_localization",
+      "question_count": 47,
+      "missing_files": [],
+      "image_details": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGB"
+      },
+      "summary": "sample_id=400002; dataset=AIGC-inpainting-replacement; task_mode=classification_localization; l1=manipulated; l2=inpainting_replacement; object_class=Building; tampered_area=One to Five Percent"
+    },
+    {
+      "sample_id": "400003",
+      "tamper_status_l1": "manipulated",
+      "tamper_type_l2": "inpainting_replacement",
+      "task_mode": "classification_localization",
+      "question_count": 47,
+      "missing_files": [],
+      "image_details": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGB"
+      },
+      "summary": "sample_id=400003; dataset=AIGC-inpainting-replacement; task_mode=classification_localization; l1=manipulated; l2=inpainting_replacement; object_class=Building; tampered_area=More than Five Percent"
+    },
+    {
+      "sample_id": "400004",
+      "tamper_status_l1": "manipulated",
+      "tamper_type_l2": "inpainting_replacement",
+      "task_mode": "classification_localization",
+      "question_count": 47,
+      "missing_files": [],
+      "image_details": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGB"
+      },
+      "summary": "sample_id=400004; dataset=AIGC-inpainting-replacement; task_mode=classification_localization; l1=manipulated; l2=inpainting_replacement; object_class=Building; tampered_area=One to Five Percent"
+    },
+    {
+      "sample_id": "400005",
+      "tamper_status_l1": "manipulated",
+      "tamper_type_l2": "inpainting_replacement",
+      "task_mode": "classification_localization",
+      "question_count": 47,
+      "missing_files": [],
+      "image_details": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGB"
+      },
+      "summary": "sample_id=400005; dataset=AIGC-inpainting-replacement; task_mode=classification_localization; l1=manipulated; l2=inpainting_replacement; object_class=Building; tampered_area=One to Five Percent"
+    },
+    {
+      "sample_id": "400006",
+      "tamper_status_l1": "manipulated",
+      "tamper_type_l2": "inpainting_replacement",
+      "task_mode": "classification_localization",
+      "question_count": 47,
+      "missing_files": [],
+      "image_details": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGB"
+      },
+      "summary": "sample_id=400006; dataset=AIGC-inpainting-replacement; task_mode=classification_localization; l1=manipulated; l2=inpainting_replacement; object_class=Building; tampered_area=More than Five Percent"
+    },
+    {
+      "sample_id": "400007",
+      "tamper_status_l1": "manipulated",
+      "tamper_type_l2": "inpainting_replacement",
+      "task_mode": "classification_localization",
+      "question_count": 47,
+      "missing_files": [],
+      "image_details": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGB"
+      },
+      "summary": "sample_id=400007; dataset=AIGC-inpainting-replacement; task_mode=classification_localization; l1=manipulated; l2=inpainting_replacement; object_class=Building; tampered_area=More than Five Percent"
+    },
+    {
+      "sample_id": "400008",
+      "tamper_status_l1": "manipulated",
+      "tamper_type_l2": "inpainting_replacement",
+      "task_mode": "classification_localization",
+      "question_count": 47,
+      "missing_files": [],
+      "image_details": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGB"
+      },
+      "summary": "sample_id=400008; dataset=AIGC-inpainting-replacement; task_mode=classification_localization; l1=manipulated; l2=inpainting_replacement; object_class=Building; tampered_area=More than Five Percent"
+    },
+    {
+      "sample_id": "400009",
+      "tamper_status_l1": "manipulated",
+      "tamper_type_l2": "inpainting_replacement",
+      "task_mode": "classification_localization",
+      "question_count": 47,
+      "missing_files": [],
+      "image_details": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGB"
+      },
+      "summary": "sample_id=400009; dataset=AIGC-inpainting-replacement; task_mode=classification_localization; l1=manipulated; l2=inpainting_replacement; object_class=Building; tampered_area=One to Five Percent"
+    },
+    {
+      "sample_id": "500000",
+      "tamper_status_l1": "fully_generated",
+      "tamper_type_l2": "aigc_global",
+      "task_mode": "classification",
+      "question_count": 7,
+      "missing_files": [],
+      "image_details": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGB"
+      },
+      "summary": "sample_id=500000; dataset=AIGC-global; task_mode=classification; l1=fully_generated; l2=aigc_global; caption=This orthorectified multispectral satellite image captures a nadir view of a high-throughput maritime cargo terminal. Sp..."
+    },
+    {
+      "sample_id": "500001",
+      "tamper_status_l1": "fully_generated",
+      "tamper_type_l2": "aigc_global",
+      "task_mode": "classification",
+      "question_count": 7,
+      "missing_files": [],
+      "image_details": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGB"
+      },
+      "summary": "sample_id=500001; dataset=AIGC-global; task_mode=classification; l1=fully_generated; l2=aigc_global; caption=High-resolution panchromatic imagery depicts a military training installation characterized by rigid geometric layouts. ..."
+    },
+    {
+      "sample_id": "500002",
+      "tamper_status_l1": "fully_generated",
+      "tamper_type_l2": "aigc_global",
+      "task_mode": "classification",
+      "question_count": 7,
+      "missing_files": [],
+      "image_details": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGB"
+      },
+      "summary": "sample_id=500002; dataset=AIGC-global; task_mode=classification; l1=fully_generated; l2=aigc_global; caption=Hyperspectral sensor data reveals a complex river delta ecosystem where sediment loads create turbidity gradients. Sinuo..."
+    },
+    {
+      "sample_id": "500003",
+      "tamper_status_l1": "fully_generated",
+      "tamper_type_l2": "aigc_global",
+      "task_mode": "classification",
+      "question_count": 7,
+      "missing_files": [],
+      "image_details": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGB"
+      },
+      "summary": "sample_id=500003; dataset=AIGC-global; task_mode=classification; l1=fully_generated; l2=aigc_global; caption=Synthetic aperture radar and optical fusion render a dense urban business district under clear atmospheric conditions. V..."
+    },
+    {
+      "sample_id": "500004",
+      "tamper_status_l1": "fully_generated",
+      "tamper_type_l2": "aigc_global",
+      "task_mode": "classification",
+      "question_count": 7,
+      "missing_files": [],
+      "image_details": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGB"
+      },
+      "summary": "sample_id=500004; dataset=AIGC-global; task_mode=classification; l1=fully_generated; l2=aigc_global; caption=Thermal infrared and visible spectrum composite highlights an industrial oil refinery complex. Large cylindrical storage..."
+    },
+    {
+      "sample_id": "500005",
+      "tamper_status_l1": "fully_generated",
+      "tamper_type_l2": "aigc_global",
+      "task_mode": "classification",
+      "question_count": 7,
+      "missing_files": [],
+      "image_details": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGB"
+      },
+      "summary": "sample_id=500005; dataset=AIGC-global; task_mode=classification; l1=fully_generated; l2=aigc_global; caption=Generate a high-resolution orthorectified satellite image depicting a bustling maritime cargo port under clear atmospher..."
+    },
+    {
+      "sample_id": "500006",
+      "tamper_status_l1": "fully_generated",
+      "tamper_type_l2": "aigc_global",
+      "task_mode": "classification",
+      "question_count": 7,
+      "missing_files": [],
+      "image_details": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGB"
+      },
+      "summary": "sample_id=500006; dataset=AIGC-global; task_mode=classification; l1=fully_generated; l2=aigc_global; caption=Create an orthorectified aerial photograph of a dense urban business district characterized by high-rise skyscrapers. Th..."
+    },
+    {
+      "sample_id": "500007",
+      "tamper_status_l1": "fully_generated",
+      "tamper_type_l2": "aigc_global",
+      "task_mode": "classification",
+      "question_count": 7,
+      "missing_files": [],
+      "image_details": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGB"
+      },
+      "summary": "sample_id=500007; dataset=AIGC-global; task_mode=classification; l1=fully_generated; l2=aigc_global; caption=Produce a multispectral satellite view of extensive agricultural land dominated by center-pivot irrigation systems. The ..."
+    },
+    {
+      "sample_id": "500008",
+      "tamper_status_l1": "fully_generated",
+      "tamper_type_l2": "aigc_global",
+      "task_mode": "classification",
+      "question_count": 7,
+      "missing_files": [],
+      "image_details": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGB"
+      },
+      "summary": "sample_id=500008; dataset=AIGC-global; task_mode=classification; l1=fully_generated; l2=aigc_global; caption=Generate a detailed high-resolution optical satellite image of an industrial oil refinery complex. The scene features nu..."
+    },
+    {
+      "sample_id": "500009",
+      "tamper_status_l1": "fully_generated",
+      "tamper_type_l2": "aigc_global",
+      "task_mode": "classification",
+      "question_count": 7,
+      "missing_files": [],
+      "image_details": {
+        "width": 512,
+        "height": 512,
+        "mode": "RGB"
+      },
+      "summary": "sample_id=500009; dataset=AIGC-global; task_mode=classification; l1=fully_generated; l2=aigc_global; caption=Synthesize a high-altitude nadir-view satellite image of a military training installation. The composition includes rect..."
+    },
+    {
+      "sample_id": "600000",
+      "tamper_status_l1": "authentic",
+      "tamper_type_l2": "none",
+      "task_mode": "classification",
+      "question_count": 0,
+      "missing_files": [],
+      "image_details": {
+        "width": 512,
+        "height": 512,
+        "mode": "L"
+      },
+      "summary": "sample_id=600000; dataset=CM_dataset; task_mode=classification; l1=authentic; l2=none; derived_from=100000"
+    },
+    {
+      "sample_id": "600001",
+      "tamper_status_l1": "authentic",
+      "tamper_type_l2": "none",
+      "task_mode": "classification",
+      "question_count": 0,
+      "missing_files": [],
+      "image_details": {
+        "width": 512,
+        "height": 512,
+        "mode": "L"
+      },
+      "summary": "sample_id=600001; dataset=CM_dataset; task_mode=classification; l1=authentic; l2=none; derived_from=100001"
+    },
+    {
+      "sample_id": "600002",
+      "tamper_status_l1": "authentic",
+      "tamper_type_l2": "none",
+      "task_mode": "classification",
+      "question_count": 0,
+      "missing_files": [],
+      "image_details": {
+        "width": 512,
+        "height": 512,
+        "mode": "L"
+      },
+      "summary": "sample_id=600002; dataset=CM_dataset; task_mode=classification; l1=authentic; l2=none; derived_from=100002"
+    },
+    {
+      "sample_id": "600003",
+      "tamper_status_l1": "authentic",
+      "tamper_type_l2": "none",
+      "task_mode": "classification",
+      "question_count": 0,
+      "missing_files": [],
+      "image_details": {
+        "width": 512,
+        "height": 512,
+        "mode": "L"
+      },
+      "summary": "sample_id=600003; dataset=CM_dataset; task_mode=classification; l1=authentic; l2=none; derived_from=100003"
+    },
+    {
+      "sample_id": "600004",
+      "tamper_status_l1": "authentic",
+      "tamper_type_l2": "none",
+      "task_mode": "classification",
+      "question_count": 0,
+      "missing_files": [],
+      "image_details": {
+        "width": 512,
+        "height": 512,
+        "mode": "L"
+      },
+      "summary": "sample_id=600004; dataset=CM_dataset; task_mode=classification; l1=authentic; l2=none; derived_from=100004"
+    },
+    {
+      "sample_id": "600005",
+      "tamper_status_l1": "authentic",
+      "tamper_type_l2": "none",
+      "task_mode": "classification",
+      "question_count": 0,
+      "missing_files": [],
+      "image_details": {
+        "width": 512,
+        "height": 512,
+        "mode": "L"
+      },
+      "summary": "sample_id=600005; dataset=CM_dataset; task_mode=classification; l1=authentic; l2=none; derived_from=100005"
+    },
+    {
+      "sample_id": "600006",
+      "tamper_status_l1": "authentic",
+      "tamper_type_l2": "none",
+      "task_mode": "classification",
+      "question_count": 0,
+      "missing_files": [],
+      "image_details": {
+        "width": 512,
+        "height": 512,
+        "mode": "L"
+      },
+      "summary": "sample_id=600006; dataset=CM_dataset; task_mode=classification; l1=authentic; l2=none; derived_from=100006"
+    },
+    {
+      "sample_id": "600007",
+      "tamper_status_l1": "authentic",
+      "tamper_type_l2": "none",
+      "task_mode": "classification",
+      "question_count": 0,
+      "missing_files": [],
+      "image_details": {
+        "width": 512,
+        "height": 512,
+        "mode": "L"
+      },
+      "summary": "sample_id=600007; dataset=CM_dataset; task_mode=classification; l1=authentic; l2=none; derived_from=100007"
+    },
+    {
+      "sample_id": "600008",
+      "tamper_status_l1": "authentic",
+      "tamper_type_l2": "none",
+      "task_mode": "classification",
+      "question_count": 0,
+      "missing_files": [],
+      "image_details": {
+        "width": 512,
+        "height": 512,
+        "mode": "L"
+      },
+      "summary": "sample_id=600008; dataset=CM_dataset; task_mode=classification; l1=authentic; l2=none; derived_from=100008"
+    },
+    {
+      "sample_id": "600009",
+      "tamper_status_l1": "authentic",
+      "tamper_type_l2": "none",
+      "task_mode": "classification",
+      "question_count": 0,
+      "missing_files": [],
+      "image_details": {
+        "width": 512,
+        "height": 512,
+        "mode": "L"
+      },
+      "summary": "sample_id=600009; dataset=CM_dataset; task_mode=classification; l1=authentic; l2=none; derived_from=100009"
+    }
+  ]
+}

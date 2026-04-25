@@ -1,0 +1,11 @@
+[2026-04-24T22:00:45] classifier_baseline_v1 single inference run
+dataset_root=/Users/lilongqi/PycharmProjects/2026/0322/data_set_v2
+sample_id=600000
+split=train
+true_l1=authentic
+true_l2=none
+predicted_l1=authentic
+predicted_l2=none
+confidence_l1=1.0
+confidence_l2=1.0
+neighbor_count=3

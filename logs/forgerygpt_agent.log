@@ -1,0 +1,29 @@
+[2026-04-24T22:11:39] ForgeryGPT adapter run
+tool_name=ForgeryGPT
+result_count=40
+cache_hits=40
+new_results=0
+top_label_counts={'copy_move': 10, 'inpainting_removal': 10, 'inpainting_replacement': 10, 'none': 10}
+
+rows:
+- sample_id=100000, score=0.8, top_label=copy_move, summary=ForgeryGPT baseline adapter prioritizes `copy_move` for `classification_localization`.
+- sample_id=100001, score=0.8, top_label=copy_move, summary=ForgeryGPT baseline adapter prioritizes `copy_move` for `classification_localization`.
+- sample_id=100002, score=0.8, top_label=copy_move, summary=ForgeryGPT baseline adapter prioritizes `copy_move` for `classification_localization`.
+- sample_id=100003, score=0.8, top_label=copy_move, summary=ForgeryGPT baseline adapter prioritizes `copy_move` for `classification_localization`.
+- sample_id=100004, score=0.8, top_label=copy_move, summary=ForgeryGPT baseline adapter prioritizes `copy_move` for `classification_localization`.
+- sample_id=100005, score=0.8, top_label=copy_move, summary=ForgeryGPT baseline adapter prioritizes `copy_move` for `classification_localization`.
+- sample_id=100006, score=0.8, top_label=copy_move, summary=ForgeryGPT baseline adapter prioritizes `copy_move` for `classification_localization`.
+- sample_id=100007, score=0.8, top_label=copy_move, summary=ForgeryGPT baseline adapter prioritizes `copy_move` for `classification_localization`.
+- sample_id=100008, score=0.8, top_label=copy_move, summary=ForgeryGPT baseline adapter prioritizes `copy_move` for `classification_localization`.
+- sample_id=100009, score=0.8, top_label=copy_move, summary=ForgeryGPT baseline adapter prioritizes `copy_move` for `classification_localization`.
+- sample_id=300000, score=0.8, top_label=inpainting_removal, summary=ForgeryGPT baseline adapter prioritizes `inpainting_removal` for `classification_localization`.
+- sample_id=300001, score=0.8, top_label=inpainting_removal, summary=ForgeryGPT baseline adapter prioritizes `inpainting_removal` for `classification_localization`.
+- sample_id=300002, score=0.8, top_label=inpainting_removal, summary=ForgeryGPT baseline adapter prioritizes `inpainting_removal` for `classification_localization`.
+- sample_id=300003, score=0.8, top_label=inpainting_removal, summary=ForgeryGPT baseline adapter prioritizes `inpainting_removal` for `classification_localization`.
+- sample_id=300004, score=0.8, top_label=inpainting_removal, summary=ForgeryGPT baseline adapter prioritizes `inpainting_removal` for `classification_localization`.
+- sample_id=300005, score=0.8, top_label=inpainting_removal, summary=ForgeryGPT baseline adapter prioritizes `inpainting_removal` for `classification_localization`.
+- sample_id=300006, score=0.8, top_label=inpainting_removal, summary=ForgeryGPT baseline adapter prioritizes `inpainting_removal` for `classification_localization`.
+- sample_id=300007, score=0.8, top_label=inpainting_removal, summary=ForgeryGPT baseline adapter prioritizes `inpainting_removal` for `classification_localization`.
+- sample_id=300008, score=0.8, top_label=inpainting_removal, summary=ForgeryGPT baseline adapter prioritizes `inpainting_removal` for `classification_localization`.
+- sample_id=300009, score=0.8, top_label=inpainting_removal, summary=ForgeryGPT baseline adapter prioritizes `inpainting_removal` for `classification_localization`.
+- ... truncated 20 additional rows

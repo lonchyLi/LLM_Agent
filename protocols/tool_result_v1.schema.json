@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ToolResultV1",
+  "type": "object",
+  "required": [
+    "sample_id",
+    "round_id",
+    "tool_name",
+    "status",
+    "score",
+    "label_support",
+    "summary"
+  ],
+  "properties": {
+    "sample_id": {"type": "string"},
+    "round_id": {"type": "integer", "minimum": 1},
+    "tool_name": {"type": "string"},
+    "status": {
+      "type": "string",
+      "enum": ["success", "failed", "skipped"]
+    },
+    "score": {"type": "number", "minimum": 0, "maximum": 1},
+    "target_region": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 4,
+      "items": {"type": "number"}
+    },
+    "label_support": {
+      "type": "object",
+      "properties": {
+        "none": {"type": "number", "minimum": 0, "maximum": 1},
+        "copy_move": {"type": "number", "minimum": 0, "maximum": 1},
+        "splice": {"type": "number", "minimum": 0, "maximum": 1},
+        "inpainting_removal": {"type": "number", "minimum": 0, "maximum": 1},
+        "inpainting_replacement": {"type": "number", "minimum": 0, "maximum": 1},
+        "aigc_global": {"type": "number", "minimum": 0, "maximum": 1}
+      },
+      "additionalProperties": false
+    },
+    "mask_path": {"type": "string"},
+    "artifact_path": {"type": "string"},
+    "log_path": {"type": "string"},
+    "summary": {"type": "string"}
+  },
+  "additionalProperties": false
+}

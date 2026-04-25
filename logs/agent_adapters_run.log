@@ -1,0 +1,31 @@
+[2026-04-24T22:11:39] agent adapter run
+dataset_root=/Users/lilongqi/PycharmProjects/2026/0322/data_set_v2
+sample_scope=all
+sample_count=60
+result_count=80
+tool_counts={'FakeShield': 40, 'ForgeryGPT': 40}
+top_label_counts={'aigc_global': 10, 'copy_move': 10, 'inpainting_removal': 10, 'inpainting_replacement': 20, 'none': 20, 'splice': 10}
+cache_stats={'FakeShield': {'cached': 40, 'new': 0}, 'ForgeryGPT': {'cached': 40, 'new': 0}}
+
+sample_results:
+- sample_id=100000, tool=ForgeryGPT, score=0.8, top_label=copy_move, status=success
+- sample_id=100001, tool=ForgeryGPT, score=0.8, top_label=copy_move, status=success
+- sample_id=100002, tool=ForgeryGPT, score=0.8, top_label=copy_move, status=success
+- sample_id=100003, tool=ForgeryGPT, score=0.8, top_label=copy_move, status=success
+- sample_id=100004, tool=ForgeryGPT, score=0.8, top_label=copy_move, status=success
+- sample_id=100005, tool=ForgeryGPT, score=0.8, top_label=copy_move, status=success
+- sample_id=100006, tool=ForgeryGPT, score=0.8, top_label=copy_move, status=success
+- sample_id=100007, tool=ForgeryGPT, score=0.8, top_label=copy_move, status=success
+- sample_id=100008, tool=ForgeryGPT, score=0.8, top_label=copy_move, status=success
+- sample_id=100009, tool=ForgeryGPT, score=0.8, top_label=copy_move, status=success
+- sample_id=200000, tool=FakeShield, score=0.74, top_label=splice, status=success
+- sample_id=200001, tool=FakeShield, score=0.74, top_label=splice, status=success
+- sample_id=200002, tool=FakeShield, score=0.74, top_label=splice, status=success
+- sample_id=200003, tool=FakeShield, score=0.74, top_label=splice, status=success
+- sample_id=200004, tool=FakeShield, score=0.74, top_label=splice, status=success
+- sample_id=200005, tool=FakeShield, score=0.74, top_label=splice, status=success
+- sample_id=200006, tool=FakeShield, score=0.74, top_label=splice, status=success
+- sample_id=200007, tool=FakeShield, score=0.74, top_label=splice, status=success
+- sample_id=200008, tool=FakeShield, score=0.74, top_label=splice, status=success
+- sample_id=200009, tool=FakeShield, score=0.74, top_label=splice, status=success
+- ... truncated 60 additional rows

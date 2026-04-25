@@ -1,0 +1,15 @@
+[2026-04-24T22:00:47] classifier_baseline_v1 training run
+dataset_root=/Users/lilongqi/PycharmProjects/2026/0322/data_set_v2
+sample_count=60
+split_counts={'test': 12, 'train': 36, 'val': 12}
+label_l1_counts={'authentic': 10, 'fully_generated': 10, 'manipulated': 40}
+label_l2_counts={'aigc_global': 10, 'copy_move': 10, 'inpainting_removal': 10, 'inpainting_replacement': 10, 'none': 10, 'splice': 10}
+feature_extractor=16x16 RGB thumbnail + color stats + histogram
+classifier_type=top-k nearest neighbor
+
+metrics.total=60
+metrics.l1_accuracy=0.55
+metrics.l2_accuracy=0.516667
+metrics.test=count:12,l1_accuracy:0.333333,l2_accuracy:0.333333
+metrics.train=count:36,l1_accuracy:0.666667,l2_accuracy:0.638889
+metrics.val=count:12,l1_accuracy:0.416667,l2_accuracy:0.333333

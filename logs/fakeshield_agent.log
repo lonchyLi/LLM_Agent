@@ -1,0 +1,29 @@
+[2026-04-24T22:11:39] FakeShield adapter run
+tool_name=FakeShield
+result_count=40
+cache_hits=40
+new_results=0
+top_label_counts={'aigc_global': 10, 'inpainting_replacement': 10, 'none': 10, 'splice': 10}
+
+rows:
+- sample_id=200000, score=0.74, top_label=splice, summary=FakeShield baseline adapter favors `splice` under coarse label `manipulated`.
+- sample_id=200001, score=0.74, top_label=splice, summary=FakeShield baseline adapter favors `splice` under coarse label `manipulated`.
+- sample_id=200002, score=0.74, top_label=splice, summary=FakeShield baseline adapter favors `splice` under coarse label `manipulated`.
+- sample_id=200003, score=0.74, top_label=splice, summary=FakeShield baseline adapter favors `splice` under coarse label `manipulated`.
+- sample_id=200004, score=0.74, top_label=splice, summary=FakeShield baseline adapter favors `splice` under coarse label `manipulated`.
+- sample_id=200005, score=0.74, top_label=splice, summary=FakeShield baseline adapter favors `splice` under coarse label `manipulated`.
+- sample_id=200006, score=0.74, top_label=splice, summary=FakeShield baseline adapter favors `splice` under coarse label `manipulated`.
+- sample_id=200007, score=0.74, top_label=splice, summary=FakeShield baseline adapter favors `splice` under coarse label `manipulated`.
+- sample_id=200008, score=0.74, top_label=splice, summary=FakeShield baseline adapter favors `splice` under coarse label `manipulated`.
+- sample_id=200009, score=0.74, top_label=splice, summary=FakeShield baseline adapter favors `splice` under coarse label `manipulated`.
+- sample_id=400000, score=0.75, top_label=inpainting_replacement, summary=FakeShield baseline adapter favors `inpainting_replacement` under coarse label `manipulated`.
+- sample_id=400001, score=0.75, top_label=inpainting_replacement, summary=FakeShield baseline adapter favors `inpainting_replacement` under coarse label `manipulated`.
+- sample_id=400002, score=0.75, top_label=inpainting_replacement, summary=FakeShield baseline adapter favors `inpainting_replacement` under coarse label `manipulated`.
+- sample_id=400003, score=0.75, top_label=inpainting_replacement, summary=FakeShield baseline adapter favors `inpainting_replacement` under coarse label `manipulated`.
+- sample_id=400004, score=0.75, top_label=inpainting_replacement, summary=FakeShield baseline adapter favors `inpainting_replacement` under coarse label `manipulated`.
+- sample_id=400005, score=0.75, top_label=inpainting_replacement, summary=FakeShield baseline adapter favors `inpainting_replacement` under coarse label `manipulated`.
+- sample_id=400006, score=0.75, top_label=inpainting_replacement, summary=FakeShield baseline adapter favors `inpainting_replacement` under coarse label `manipulated`.
+- sample_id=400007, score=0.75, top_label=inpainting_replacement, summary=FakeShield baseline adapter favors `inpainting_replacement` under coarse label `manipulated`.
+- sample_id=400008, score=0.75, top_label=inpainting_replacement, summary=FakeShield baseline adapter favors `inpainting_replacement` under coarse label `manipulated`.
+- sample_id=400009, score=0.75, top_label=inpainting_replacement, summary=FakeShield baseline adapter favors `inpainting_replacement` under coarse label `manipulated`.
+- ... truncated 20 additional rows

@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DatasetManifest",
+  "type": "object",
+  "required": [
+    "dataset_name",
+    "version",
+    "root_dir",
+    "label_space",
+    "files"
+  ],
+  "properties": {
+    "dataset_name": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "root_dir": {
+      "type": "string"
+    },
+    "label_space": {
+      "type": "object",
+      "required": ["l1", "l2"],
+      "properties": {
+        "l1": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "l2": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      },
+      "additionalProperties": false
+    },
+    "files": {
+      "type": "object",
+      "required": ["samples", "questions"],
+      "properties": {
+        "samples": { "type": "string" },
+        "questions": { "type": "string" }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
