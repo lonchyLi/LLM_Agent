@@ -1,4 +1,4 @@
-# macOS
+git rm -r --cached data_set data_set_v2# macOS
 .DS_Store
 
 # Python
@@ -10,3 +10,5 @@ __pycache__/
 # 虚拟环境（建议也加）
 venv/
 .env/
+data_set/
+data_set_v2/
